@@ -6,6 +6,9 @@ export default function Page() {
     <div className="flex  h-screen justify-center items-center bg-slate-400  p-20">
         <StudentsList />
         <h2>تم بحمد الله</h2>
+        <h2>تم بحمد الله</h2>
+        <h2>تم بحمد الله</h2>
+        <h2>تم بحمد الله</h2>
     </div>
   );
 }
