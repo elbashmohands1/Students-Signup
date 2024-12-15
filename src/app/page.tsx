@@ -5,10 +5,7 @@ export default function Page() {
   return (
     <div className="flex  h-screen justify-center items-center bg-slate-400  p-20">
         <StudentsList />
-        <h2>تم بحمد الله</h2>
-        <h2>تم بحمد الله</h2>
-        <h2>تم بحمد الله</h2>
-        <h2>تم بحمد الله</h2>
+       <h2>Test 2 </h2>
     </div>
   );
 }
