@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 
-const MONGODB_URI = process.env.MONGODB_URI;
+const MONGODB_URI = "mongodb+srv://elbashmohands1:0118549511Mm@cluster0.2zqyz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
 if (!MONGODB_URI) {
   throw new Error(
@@ -9,7 +9,7 @@ if (!MONGODB_URI) {
 }
 async function connectToDatabase(){
     try {
-        await mongoose.connect(process.env.MONGODB_URI, {});
+        await mongoose.connect(MONGODB_URI, {});
         console.log("CONNECTED TO DATABASE SUCCESSFULLY");
         return 
     } catch (error) {
